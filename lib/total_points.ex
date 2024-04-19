@@ -1,3 +1,4 @@
+# https://www.codewars.com/kata/5bb904724c47249b10000131/elixir
 defmodule TotalPoints do
   def earnedPoints(games) do
     Enum.map(games,fn(game) ->
